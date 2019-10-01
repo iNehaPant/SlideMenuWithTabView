@@ -15,10 +15,10 @@
 		BA8F754F2343701A0078709C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA8F754D2343701A0078709C /* LaunchScreen.storyboard */; };
 		BA8F755A2343701B0078709C /* SlideOutMenuWithTabViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F75592343701B0078709C /* SlideOutMenuWithTabViewTests.swift */; };
 		BA8F75652343701B0078709C /* SlideOutMenuWithTabViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F75642343701B0078709C /* SlideOutMenuWithTabViewUITests.swift */; };
-		BA8F7575234370290078709C /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F7573234370290078709C /* ENSideMenu.swift */; };
-		BA8F7576234370290078709C /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F7574234370290078709C /* ENSideMenuNavigationController.swift */; };
 		BA8F7578234370C90078709C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F7577234370C90078709C /* MenuViewController.swift */; };
 		BA8F757A234371C20078709C /* MenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F7579234371C20078709C /* MenuNavigationController.swift */; };
+		BA8F758523438AF60078709C /* ENSideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F758323438AF60078709C /* ENSideMenu.swift */; };
+		BA8F758623438AF60078709C /* ENSideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8F758423438AF60078709C /* ENSideMenuNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		BA8F75602343701B0078709C /* SlideOutMenuWithTabViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideOutMenuWithTabViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8F75642343701B0078709C /* SlideOutMenuWithTabViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOutMenuWithTabViewUITests.swift; sourceTree = "<group>"; };
 		BA8F75662343701B0078709C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA8F7573234370290078709C /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
-		BA8F7574234370290078709C /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
 		BA8F7577234370C90078709C /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		BA8F7579234371C20078709C /* MenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuNavigationController.swift; sourceTree = "<group>"; };
+		BA8F758323438AF60078709C /* ENSideMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenu.swift; sourceTree = "<group>"; };
+		BA8F758423438AF60078709C /* ENSideMenuNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ENSideMenuNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 		BA8F7541234370190078709C /* SlideOutMenuWithTabView */ = {
 			isa = PBXGroup;
 			children = (
-				BA8F7572234370290078709C /* Library */,
+				BA8F758223438AF60078709C /* Library */,
 				BA8F7542234370190078709C /* AppDelegate.swift */,
 				BA8F7544234370190078709C /* FirstViewController.swift */,
 				BA8F7546234370190078709C /* SecondViewController.swift */,
@@ -139,14 +139,14 @@
 			path = SlideOutMenuWithTabViewUITests;
 			sourceTree = "<group>";
 		};
-		BA8F7572234370290078709C /* Library */ = {
+		BA8F758223438AF60078709C /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				BA8F7573234370290078709C /* ENSideMenu.swift */,
-				BA8F7574234370290078709C /* ENSideMenuNavigationController.swift */,
+				BA8F758323438AF60078709C /* ENSideMenu.swift */,
+				BA8F758423438AF60078709C /* ENSideMenuNavigationController.swift */,
 			);
 			name = Library;
-			path = ../../SlideOutWithTabs/SlideOutWithTabs/Library;
+			path = "../../../../../Crea8tor/Project/ENSwiftSideMenu-master/Library";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,12 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA8F7575234370290078709C /* ENSideMenu.swift in Sources */,
+				BA8F758523438AF60078709C /* ENSideMenu.swift in Sources */,
 				BA8F7578234370C90078709C /* MenuViewController.swift in Sources */,
 				BA8F7547234370190078709C /* SecondViewController.swift in Sources */,
+				BA8F758623438AF60078709C /* ENSideMenuNavigationController.swift in Sources */,
 				BA8F7543234370190078709C /* AppDelegate.swift in Sources */,
 				BA8F757A234371C20078709C /* MenuNavigationController.swift in Sources */,
-				BA8F7576234370290078709C /* ENSideMenuNavigationController.swift in Sources */,
 				BA8F7545234370190078709C /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
