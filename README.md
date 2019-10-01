@@ -1,2 +1,1 @@
-# SlideMenuWithTabView
-App with Left Slide Menu with Tabs at the bottom 
+# Slide Menu on Left With Tabs at the bottom of View Controller
