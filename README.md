@@ -1,1 +1,1 @@
-# Slide Menu on Left With Tabs at the bottom of View Controllre
+# Slide Menu on Left With Tabs at the bottom of View Controller
